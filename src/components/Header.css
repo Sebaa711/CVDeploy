@@ -40,6 +40,9 @@
 
   /* margin-left: 5px; */
   margin-top: 8px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 .headerNombres {
   border: solid 2px gainsboro;

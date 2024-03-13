@@ -1,5 +1,7 @@
 import "./Header.css";
 import profile from "../download.png";
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function Header() {
   return (
@@ -14,8 +16,20 @@ export default function Header() {
       <div className="headerContacto">
         <ul className="contactList">
           <li className="contactListItem">
-            <p>Email</p>
+            <p>
+              <EmailIcon></EmailIcon>
+            </p>
             <p>jsaristizbal3@soy.sena.edu.co</p>
+          </li>
+          <li className="contactListItem">
+            <p>
+              <LinkedInIcon></LinkedInIcon>
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/sebasti%C3%A1n-aristiz%C3%A1bal-813452271/">
+                Sebastian Aristizabal
+              </a>
+            </p>
           </li>
         </ul>
       </div>
